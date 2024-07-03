@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import ConfirmButton from './ch08/ConfirmButton'
+import ProfileCard from './ch13/ProfileCard'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ConfirmButton />
+    <ProfileCard />
   </React.StrictMode>
 );
 
